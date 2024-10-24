@@ -165,58 +165,11 @@ $(document).ready(function() {
     }
   });
 
-// team silder js
-$('.d2c_team_slider').slick({
-    centerMode: true,
-    centerPadding: '0px',
-    dots: true,
-    arrows: false,
-    infinite: true,
-    autoplay:true,
-    speed: 2000,
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    responsive: [
-      {
-        breakpoint: 1400,
-        settings: {
-          slidesToShow: 3,
-          centerPadding: '24px',
-        }
-      },
-      {
-        breakpoint: 1200,
-        settings: {
-          slidesToShow: 2,
-        }
-      },
-      {
-        breakpoint: 992,
-        settings: {
-          slidesToShow: 2,
-        }
-      },
-      {
-        breakpoint: 667,
-        settings: {
-          slidesToShow: 1,
-        }
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 1,
-          centerPadding: '0px',
-        }
-      }
-    ]
-  });
-
 
 
 // Template Name: {{CSUME V3 - Cyber Security Expert One Page Website Template}}
-// Template URL: {{https://CYVENGER.com/product/csume-v3-cyber-security-expert-one-page-template}}
+// Template URL: {{https://designtocodes.com/product/csume-v3-cyber-security-expert-one-page-template}}
 // Description: {{Invest in Csume V3 onepage cyber security template today and take your cyber security expertise to new heights.}}
-// Author: CYVENGER
-// Author URL: https://www.CYVENGER.io
+// Author: DesignToCodes
+// Author URL: https://www.designtocodes.com
 // Text Domain: {{ CSUME V3 }}

@@ -45,12 +45,6 @@ ul {
 h1,h2,h3,h4,h5,h6,p {
     font-family: var(--primary_font-family);
 }
-h1 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700; /* Bold */
-    /* color: white; assuming you want white text */
-    margin-bottom: 1rem;
-  }
 h2 {
     color: var(--secondary_color);
     font-size: 50px;
@@ -836,59 +830,9 @@ textarea {
 
 /* 
     Template Name: {{CSUME V3 - Cyber Security Expert One Page Website Template}}
-    Template URL: {{https://CYVENGER.com/product/csume-v3-cyber-security-expert-one-page-template}}
+    Template URL: {{https://designtocodes.com/product/csume-v3-cyber-security-expert-one-page-template}}
     Description: {{Invest in Csume V3 onepage cyber security template today and take your cyber security expertise to new heights.}}
-    Author: CYVENGER
-    Author URL: https://www.CYVENGER.io
+    Author: DesignToCodes
+    Author URL: https://www.designtocodes.com
     Text Domain: {{ CSUME V3 }}
  */
-
-/* team section start */
-.d2c_team_wrapper {
-    overflow-x: hidden;
-}
-.d2c_team_wrapper h2 {
-    margin-bottom: 80px;
-}
-.d2c_team_wrapper .d2c_title::after {
-    top: 50px;
-    left: 50%;
-    transform: translateX(-75px);
-}
-.d2c_team_wrapper .d2c_sub_title::after {
-    left: 50%;
-    transform: translateX(-62px);
-}
-.d2c_team_card .d2c_img_wrapper {
-    width: 390px;
-    height: 390px;
-    z-index: 1;
-}
-.d2c_team_card .d2c_img_wrapper::before {
-    content: '';
-    width: 390px;
-    height: 390px;
-    border: 1px solid #333B6D;
-    border-radius: 8px;
-    position: absolute;
-    top: 27px;
-    left: -27px;
-    z-index: -1;
-    transition: 0.4s all;
-}
-.d2c_team_card .d2c_card_body {
-    padding: 50px 0px 20px;
-}
-.d2c_team_wrapper .slick-slide {
-    margin: 0px 37px;
-}
-.slick-dots li button:before {
-    font-size: 10px;
-    color: var(--primary_color);
-    transition: 0.4s all;
-}
-.slick-dots li.slick-active button:before {
-    color: var(--primary_color);
-    transition: 0.4s all;
-}
-/* team section end */
