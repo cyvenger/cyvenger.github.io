@@ -102,20 +102,33 @@ $('.d2c_testimonial_slider').slick({
 // Form Validation Js
 (function () {
     'use strict'
-  
+
     var forms = document.querySelectorAll('.needs-validation')
-  
+
     Array.prototype.slice.call(forms)
-      .forEach(function (form) {
-        form.addEventListener('submit', function (event) {
-          if (!form.checkValidity()) {
-            event.preventDefault()
-            event.stopPropagation()
-          }
-  
-          form.classList.add('was-validated')
-        }, false)
-    })
+        .forEach(function (form) {
+            form.addEventListener('submit', function (event) {
+                if (!form.checkValidity()) {
+                    event.preventDefault();
+                    event.stopPropagation();
+                } else {
+                    event.preventDefault(); // Prevent the form from submitting and reloading the page
+                    // Get the values from the input fields
+                    const firstName = document.getElementById("validationCustomFirstName").value;
+                    const lastName = document.getElementById("validationCustomLastName").value;
+                    const email = document.getElementById("validationCustomEmail").value;
+                    const message = document.getElementById("validationCustomMessage").value;
+
+                    // Construct the mailto link with all the values
+                    const mailtoLink = `mailto:david.vaknin@cyvenger.io?subject=Meeting Request from ${encodeURIComponent(firstName)} ${encodeURIComponent(lastName)}&body=Hello,%0D%0A%0D%0AMy name is ${encodeURIComponent(firstName)} ${encodeURIComponent(lastName)} (%20${encodeURIComponent(email)}).%0D%0A%0D%0A${encodeURIComponent(message)}`;
+
+                    // Redirect the user to the mailto link
+                    window.location.href = mailtoLink;
+                }
+
+                form.classList.add('was-validated');
+            }, false);
+        });
 })();
 
 // WOW JS
