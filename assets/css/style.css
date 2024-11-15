@@ -335,6 +335,11 @@ body .d2c_mobile_view {
     background-repeat: no-repeat;
     background-size: cover;
 }
+.d2c_terms_wrapper {
+    background: url(../images/contact_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 /* Section Background End */
 
 /* Hero Section Start */

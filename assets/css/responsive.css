@@ -234,6 +234,17 @@
         padding: 8px;
     }
     /* Contact End */
+    /* Terms Start */
+    .d2c_terms_wrapper {
+        padding: 50px 0px 50px;
+    }
+    .form-label {
+        font-size: 17px;
+    }
+    .form-control {
+        padding: 8px;
+    }
+    /* Terms End */
     /* Footer Start */
     .d2c_footer_wrapper {
         padding: 50px 0px;
