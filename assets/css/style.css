@@ -3,6 +3,8 @@
 :root {
     /* Font */
     --primary_font-family: 'Satoshi', sans-serif;
+    /* --primary_font-family: 'Lexend Zetta', sans-serif; */
+    --cyvenger_font-family: 'Lexend Zetta', sans-serif;
     /* Color */
     --primary_color: #EFF1F5;
     --secondary_color: #674ea7;
@@ -94,6 +96,10 @@ p {
     background: linear-gradient(180deg, rgba(14, 18, 27, 0.00) 0%, #0E121B 100%), radial-gradient(100% 100% at 50% 0%, rgba(120, 119, 198, 0.21) 16.19%, rgba(13, 17, 26, 0.00) 100%);
     position: absolute;
     inset: 0;
+}
+
+.lexend-word {
+    font-family: var(--cyvenger_font-family);
 }
 
 /* btn */
